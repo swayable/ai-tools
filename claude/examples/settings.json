@@ -1,0 +1,86 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Grep",
+      "Glob",
+
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(wc:*)",
+      "Bash(file:*)",
+      "Bash(stat:*)",
+      "Bash(find:*)",
+      "Bash(diff:*)",
+      "Bash(tree:*)",
+
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(git show:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(git config --get:*)",
+      "Bash(git describe:*)",
+      "Bash(git tag:*)",
+      "Bash(git stash list:*)",
+
+      "Bash(node -v:*)",
+      "Bash(node --version:*)",
+      "Bash(npm list:*)",
+      "Bash(npm ls:*)",
+      "Bash(npm --version:*)",
+      "Bash(npm view:*)",
+      "Bash(npm info:*)",
+      "Bash(yarn list:*)",
+      "Bash(yarn --version:*)",
+      "Bash(yarn info:*)",
+      "Bash(nvm current:*)",
+      "Bash(nvm list:*)",
+      "Bash(nvm ls:*)",
+      "Bash(nvm version:*)",
+
+      "Bash(which:*)",
+      "Bash(whereis:*)",
+      "Bash(type:*)",
+      "Bash(command -v:*)",
+      "Bash(env:*)",
+      "Bash(printenv:*)",
+      "Bash(echo:*)",
+      "Bash(printf:*)",
+      "Bash(pwd:*)",
+      "Bash(whoami:*)",
+      "Bash(hostname:*)",
+      "Bash(uname:*)",
+      "Bash(date:*)",
+      "Bash(id:*)",
+
+      "Bash(ps:*)",
+      "Bash(pgrep:*)",
+      "Bash(lsof:*)",
+
+      "Bash(jq:*)",
+      "Bash(grep:*)",
+      "Bash(awk:*)",
+      "Bash(sed -n:*)",
+      "Bash(cut:*)",
+      "Bash(sort:*)",
+      "Bash(uniq:*)",
+      "Bash(xargs:*)",
+
+      "Bash(gh:*)",
+
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "Bash(git push:*)",
+
+      "Bash(yarn install)",
+      "Bash(source ~/.nvm/nvm.sh)",
+      "Bash(nvm use:*)"
+    ]
+  }
+}
