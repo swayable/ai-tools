@@ -1,0 +1,6 @@
+config.json
+latest/
+archives/
+.idea/
+node_modules/
+*.log

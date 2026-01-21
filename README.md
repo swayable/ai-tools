@@ -31,6 +31,17 @@ The `claude/` directory contains shareable configurations for [Claude Code](http
   - `mcp-servers.json` - MCP server configurations (Linear, CircleCI, MongoDB, etc.)
   - `hooks-config.json` - Hook configuration for settings.json
 
+### Standalone Tools
+
+The `tools/` directory contains self-contained utilities:
+
+- **`env-backup/`** - Backup utility for `.env` files with hash-based change detection
+  - Keeps rolling backups of `.env` files and directories
+  - Detects changes using SHA-256 hashing (skips unchanged files)
+  - Archives previous versions with timestamps
+  - Includes macOS launchd installer for daily automated backups
+  - See [tools/env-backup/README.md](tools/env-backup/README.md) for setup
+
 ## Installation
 
 To use any of these tools, copy them to your Claude Code configuration directory:

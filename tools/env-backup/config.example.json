@@ -1,0 +1,19 @@
+{
+  // JSON5 format - comments and trailing commas are allowed
+  "backups": [
+    {
+      // File backup example
+      "name": "my-app",
+      "source": "/Users/dash/projects/my-app/.env",
+      "latest": "/Users/dash/labs/env-backups/latest/my-app.env",
+      "archiveDir": "/Users/dash/labs/env-backups/archives/my-app",
+    },
+    {
+      // Directory backup example (will be stored as .tar.gz)
+      "name": "api-server-config",
+      "source": "/Users/dash/projects/api-server/config",
+      "latest": "/Users/dash/labs/env-backups/latest/api-server-config",
+      "archiveDir": "/Users/dash/labs/env-backups/archives/api-server-config",
+    },
+  ],
+}

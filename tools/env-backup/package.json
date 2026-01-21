@@ -1,0 +1,16 @@
+{
+  "name": "env-backups",
+  "version": "1.0.0",
+  "description": "Backup tool for environment files and directories",
+  "main": "backup.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "json5": "^2.2.3"
+  }
+}
